@@ -13,14 +13,18 @@ const AdultCourses = () => {
           <header className="align-center">
             <h2>Tutoring</h2>
           </header>
+          <div className="align-center">
+            <p>Private tuition for GCSE and A-level examinations</p>
+            <p>Intensive one-to-one tuition</p>
+            <p>Preperation for French nationality exam (TCF)</p>
+            <p>Business French lessons</p>
+          </div>
+          <br></br>
           <div className="inner">
             <article>
               <div className="image fit smaller">
                 <img src={home_schooling} alt=""></img>
               </div>
-              <p>
-                Group tuition price on request.
-              </p>
               <div className="image fit smaller">
                 <img src={tutoring_01} alt=""></img>
               </div>

@@ -10,13 +10,13 @@ const Schools = () => {
       <section id="three" className="wrapper special">
         <div className="inner">
           <header className="align-center">
-            <h2>Restaurant Experiences For Schools</h2>
+            <h2>French Restaurant Experiences For Schools</h2>
           </header>
           <div className="flex flex-2">
             <article>
-              <header>
+              {/* <header>
                 <h3>French Experience</h3>
-              </header>
+              </header> */}
               <div className="image fit with-border">
                 <a href="/schools-french">
                   <img src={schools_french} alt=""></img>
@@ -26,7 +26,7 @@ const Schools = () => {
                 <a href="/schools-french" className="button special">More</a>
               </footer>
             </article>
-            <article>
+            {/* <article>
               <header>
                 <h3>Spanish Experience</h3>
               </header>
@@ -38,7 +38,7 @@ const Schools = () => {
               <footer>
                 <a href="/schools-spanish" className="button special">More</a>
               </footer>
-            </article>
+            </article> */}
           </div>
         </div>
       </section>

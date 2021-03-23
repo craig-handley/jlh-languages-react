@@ -26,7 +26,6 @@ const AdultCoursesFrench = () => {
               <p>* Advanced Conversation: For fluent or near-fluent speakers of French. Come along and chat or discuss the issues of the day.</p>
               <p>** Intermediate: For learners with good gramatical knowledge who want to improve their fluency.</p>
               <p>First session free.</p>
-              <p>More classes starting Autumn 2020, contact Jane for details.</p>
             </article>
           </div>
           <div className="image fit smaller-still">

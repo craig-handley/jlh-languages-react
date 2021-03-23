@@ -26,9 +26,11 @@ const Home = () => (
             </footer>
             <p></p>
             <header>
-              <h3>Adult Courses in French and Spanish</h3>
+              {/* <h3>Adult Courses in French and Spanish</h3> */}
+              <h3>Adult Courses in French</h3>
             </header>
-            <p>JLH Languages teaches French and Spanish to adults as a type of "brain gym."</p>
+            {/* <p>JLH Languages teaches French and Spanish to adults as a type of "brain gym."</p> */}
+            <p>JLH Languages teaches French to adults as a type of "brain gym."</p>
             <p>Everyone wants to live a healthy life for longer: there is increasing scientific evidence that suggests that we need to exercise our brain as well as our body. Factors that help to keep our brain in good shape are:</p>
             <ul>
               <li>Education – learning a new skill</li>
@@ -43,6 +45,7 @@ const Home = () => (
             <ul>
               <li>Private tuition for GCSE and A-level examinations</li>
               <li>Intensive one-to-one tuition</li>
+              <li>Preperation for French nationality exam (TCF)</li>
               <li>Business French lessons</li>
             </ul>
             <footer>
@@ -57,6 +60,11 @@ const Home = () => (
             <p>This is the reason why I have teamed up with restaurants in my local area to offer a fun, effective and hassle-free alternative to a foreign trip.</p>
             <p>Our aim is to give students a taste of being in a restaurant abroad whilst remaining in the UK. The restaurants I am currently working with are based in Cannock (South Staffordshire) although I do have plans to expand to other regions.</p>
             <p>We can cater for groups up to a maximum of 30 students. We cater for all dietary requirements (e.g. vegetarians, vegans, food allergies, Halal meals) so that all students can participate fully and benefit from this experience.</p>
+            <header>
+              <h3>New from September 2021 : Mobile Restaurant Experience</h3>
+            </header>
+            <p>Benefit from all the advantages of the immersive restaurant experience on your own school site.</p>
+            <p>Further details will follow shortly.</p>
             <footer>
               <a href="/schools" className="button special">More</a>
             </footer>

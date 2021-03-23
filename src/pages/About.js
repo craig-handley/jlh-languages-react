@@ -41,7 +41,7 @@ const About = () => {
             <br></br>
             <br></br>
           </div>
-          <div className="flex flex-2">
+          {/* <div className="flex flex-2">
             <article>
               <header>
                 <h3>Fliss Davies - Spanish Specialist</h3>
@@ -62,7 +62,7 @@ const About = () => {
               <p>Post Graduate Certificate of Education (PGCE), 2005.</p>
               <p>BA Honours Degree in Modern Foreign Language Studies, University of Leicester, 2005.</p>
             </article>
-          </div>
+          </div> */}
         </div>
       </section>
     </Fragment>

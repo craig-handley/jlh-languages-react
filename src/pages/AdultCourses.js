@@ -11,13 +11,14 @@ const AdultCourses = () => {
       <section id="three" className="wrapper special">
         <div className="inner">
           <header className="align-center">
-            <h2>Adult Courses</h2>
+            {/* <h2>Adult Courses</h2> */}
+            <h2>French Adult Courses</h2>
           </header>
           <div className="flex flex-2">
             <article>
-              <header>
+              {/* <header>
                 <h3>French Adult Courses</h3>
-              </header>
+              </header> */}
               <a href="/adult-courses-french">
                 <div className="image fit with-border">
                   <img src={french_flyer} alt=""></img>
@@ -28,7 +29,7 @@ const AdultCourses = () => {
               </footer>
               <br></br>
             </article>
-            <article>
+            {/* <article>
               <header>
                 <h3>Spanish Adult Courses</h3>
               </header>
@@ -41,7 +42,7 @@ const AdultCourses = () => {
                 <a href="/adult-courses-spanish" className="button special">More</a>
               </footer>
               <br></br>
-            </article>
+            </article> */}
           </div>
           <div className="inner">
             <article>

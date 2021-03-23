@@ -1,45 +1,51 @@
 [
     {
-        "day": "Mondays",
-        "time": "4.00pm - 5.00pm",
+        "day": "Monday 12th April",
+        "time": "5.15pm - 6.15pm",
         "location": "Zoom",
         "abilityLevel": "Free taster session - all abilities"
     },
     {
-        "day": "Thursdays",
+        "day": "Monday 12th April",
+        "time": "8.45pm - 9.45pm",
+        "location": "Zoom",
+        "abilityLevel": "Free taster session - all abilities"
+    },
+    {
+        "day": "Tuesday 13th April",
+        "time": "10.00am - 11.00am",
+        "location": "Zoom",
+        "abilityLevel": "Free taster session - all abilities"
+    },
+    {
+        "day": "Tuesday 13th April",
+        "time": "4.30pm - 5.30pm",
+        "location": "Zoom",
+        "abilityLevel": "Free taster session - all abilities"
+    },
+    {
+        "day": "Thursday 15th April",
         "time": "3.00pm - 4.00pm",
         "location": "Zoom",
         "abilityLevel": "Free taster session - all abilities"
     },
     {
-        "day": "Fridays",
+        "day": "Friday 16th April",
         "time": "12.00 - 1.00pm",
         "location": "Zoom",
         "abilityLevel": "Free taster session - all abilities"
     },
     {
         "day": "Monday",
-        "time": "5.15pm - 6.15pm",
-        "location": "Zoom",
-        "abilityLevel": "Beginners - new class"
-    },
-    {
-        "day": "Monday",
         "time": "6.30pm - 7.30pm",
         "location": "Zoom",
-        "abilityLevel": "Beginners - new class"
+        "abilityLevel": "Beginners"
     },
     {
         "day": "Monday",
         "time": "7.40pm - 8.40pm",
         "location": "Zoom",
-        "abilityLevel": "Mixed Ability / Intermediate ** - new class"
-    },
-    {
-        "day": "Wednesday",
-        "time": "10.30am - 11.30am",
-        "location": "Zoom",
-        "abilityLevel": "Beginner / Mixed Ability"
+        "abilityLevel": "Mixed Ability / Intermediate **"
     },
     {
         "day": "Wednesday",
@@ -58,12 +64,6 @@
         "time": "1.30pm - 2.30pm",
         "location": "Zoom",
         "abilityLevel": "Mixed Ability / Intermediate **"
-    },
-    {
-        "day": "Thursday",
-        "time": "3.00pm - 4.00pm",
-        "location": "Zoom",
-        "abilityLevel": "Advanced Conversation *"
     },
     {
         "day": "Thursday",
