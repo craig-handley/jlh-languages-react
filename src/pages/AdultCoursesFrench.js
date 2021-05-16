@@ -12,7 +12,7 @@ const AdultCoursesFrench = () => {
           <header className="align-center">
             <h2>French Adult Courses</h2>
           </header>
-          <h3 style={{ color: "red" }}>Due to Coronavirus all lessons take place on Zoom. Please email jane@jlhlanguages.org for details.</h3>
+          <h3 style={{ color: "red" }}>All lessons are currently taking place on Zoom. Please email jane@jlhlanguages.org for details.</h3>
           <div className="flex flex-1">
             <article>
               <header>
