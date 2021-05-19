@@ -61,6 +61,10 @@ import gallery_27 from "../img/gallery_27.jpg";
 import gallery_28 from "../img/gallery_28.jpg";
 import gallery_29 from "../img/gallery_29.jpg";
 import gallery_30 from "../img/gallery_30.jpg";
+import crepe_collection from '../img/Crepe_collection.png';
+import gallery_lydia from '../img/Les 3 graines de Lydia.jpg';
+import gallery_sunflower from '../img/Sunflower competition 1.png';
+import gallery_chronicle_2021_05_13 from '../img/21-05-13 Chronicle article.png';
 
 const Gallery = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -106,6 +110,18 @@ const Gallery = () => {
             <h2>Gallery</h2>
           </header>
           <div className="box alt">
+            <h3 className="align-left">May 2021 : La compétition des tournesols</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u" src_={gallery_chronicle_2021_05_13}></SetupImg>
+              <SetupImg class_="4u" src_={gallery_sunflower}></SetupImg>
+              <SetupImg class_="4u$" src_={gallery_lydia}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">February 2021 : La fête des crêpes</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={crepe_collection}></SetupImg>
+            </div>
+            <br></br>
             <h3 className="align-left">July 2020 : La fête de la poésie</h3>
             <div className="row 50% uniform">
               <SetupImg class_="4u" src_={gallery_poems_01}></SetupImg>
