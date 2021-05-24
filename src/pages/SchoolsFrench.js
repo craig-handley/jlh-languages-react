@@ -17,6 +17,11 @@ const SchoolsFrench = () => {
           </header>
           <div className="flex flex-1">
             <article>
+              <footer className="align-center">
+                <a href="/contact" className="button special">How To Book</a>
+              </footer>
+              <br></br>
+              <br></br>
               <div className="image fit smaller-still">
                 <img src={schools_french_02} alt="" className="with-border"></img>
               </div>

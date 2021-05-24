@@ -14,6 +14,7 @@ import Testimonials from "./pages/Testimonials";
 import GiftVouchers from "./pages/GiftVouchers";
 import Privacy from "./pages/Privacy";
 import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Route exact path="/gift-vouchers"><GiftVouchers /></Route>
         <Route exact path="/privacy"><Privacy /></Route>
         <Route exact path="/gallery"><Gallery /></Route>
+        <Route exact path="/contact"><Contact /></Route>
       </Switch>
       <footer id="footer">
         <div className="inner">

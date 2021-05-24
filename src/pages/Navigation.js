@@ -18,6 +18,7 @@ const Navigation = ({ subpage }) => {
             <Link to="/gift-vouchers">Gift Vouchers</Link>
             <Link to="/privacy">Privacy</Link>
             <Link to="/gallery">Gallery</Link>
+            <Link to="/contact">How To Book</Link>
           </nav>
           <a href="#navPanel" className="navPanelToggle">
             <span className="fas fa-bars"></span>
