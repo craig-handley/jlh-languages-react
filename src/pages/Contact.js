@@ -47,7 +47,7 @@ const Contact = () => {
             </article>
             <article>
 
-              <div style={{ height: 850 }}>
+              <div style={{ height: 1100 }}>
                 <ReactFlow
                   elements={elements}
                   nodesDraggable={false}
@@ -88,6 +88,14 @@ const Contact = () => {
                 {errors.userMessage && <div className='sub-text'>Message is required</div>}
                 <textarea name='userMessage' placeholder='Extra information or requirements' {...register('userMessage', { required: false, maxLength: 1500 })} />
                 <p className='sub-text'>{messageCharsLeft} characters remaining</p>
+
+                <label for="experienceType">Choose an experience type from the 2 options below:</label>
+
+                <select name="experienceType" id="experienceType">
+                  <option value="restaurant">You visit our restaurant</option>
+                  <option value="mobile">The JLH Languages' team visits your school</option>
+                </select>
+
                 <br />
                 <input type='submit' value='Send' />
                 <br></br>

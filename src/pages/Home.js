@@ -22,6 +22,9 @@ const Home = () => (
               <video src={jh_tv} typeof="video/mp4" controls="true"></video>
             </div>
             <p></p>
+            <header>
+              <h3>Face-to-face Lessons Also Available</h3>
+            </header>
             <footer>
               <a href="/adult-courses-french" className="button special">More</a>
             </footer>
@@ -46,7 +49,7 @@ const Home = () => (
             <ul>
               <li>Private tuition for GCSE and A-level examinations</li>
               <li>Intensive one-to-one tuition</li>
-              <li>Preperation for French nationality exam (TCF)</li>
+              <li>Preparation for French nationality exam (TCF)</li>
               <li>Business French lessons</li>
             </ul>
             <footer>
@@ -54,16 +57,31 @@ const Home = () => (
             </footer>
           </article>
           <article>
-            <header>
+
+            {/* <header>
               <h3>Immersive Restaurant Experience At Your School From September 2021</h3>
             </header>
             <p>Are you looking for a way to bring French to life? Do you want to improve student motivation and increase uptake at GCSE level and beyond? Do you want to raise the profile of your department within school and in the wider community?</p>
             <p>If the answer to any of these questions is yes, then why not give your students a taste of France without having to leave your school site?</p>
             <p>Having worked for several years as a Head of Department of Modern Languages, I was always looking for a way to bring the languages I taught to life. This is very challenging in a classroom but the alternative, a trip abroad, can be a very time-consuming endeavour and is, sadly, out of the question for many students.</p>
-            <p>This is how the idea of the mobile French restaurant experience was born. It gives your students a taste of being in a restaurant abroad without leaving the school site. It offers a fun, effective and hassle-free alternative to a foreign trip.</p>
+            <p>This is how the idea of the mobile French restaurant experience was born. It gives your students a taste of being in a restaurant abroad without leaving the school site. It offers a fun, effective and hassle-free alternative to a foreign trip.</p> */}
+
+            <header>
+              <h3>Immersive Restaurant Experiences</h3>
+            </header>
+            <p>Are you looking for a way to bring French to life? Do you want to improve student motivation and increase uptake at GCSE level and beyond? Do you want to raise the profile of your department within your school and in the wider community?</p>
+            <p>If the answer to any of these questions is yes, then why not give your students a taste of France without having to leave the UK?</p>
+            <p>Having worked for several years as a Head of Department of Modern Languages, I was always looking for a way to bring the languages I taught to life. This is very challenging in a classroom but the alternative, a trip abroad, can be a very time-consuming endeavour and is, sadly, out of the question for many students.</p>
+            <p>This is how the idea of the mobile French restaurant experience was born. It gives your students a taste of being in a restaurant abroad. It offers a fun, effective and hassle-free alternative to a foreign trip.</p>
+
             <footer>
-              <a href="/schools-french" className="button special">More</a>
+              <a href="/schools-french" className="button special">At Our Restaurant</a>
             </footer>
+            <p>Our restaurant is located near Cannock in South Staffordshire (WS12 2DN).</p>
+            <footer>
+              <a href="/schools-french-mobile" className="button special">At Your School</a>
+            </footer>
+            <p>Available to schools within a 30 minute radius of Cannock in South Staffordshire.</p>
             <br></br>
             <br></br>
             <div className="image fit">

@@ -27,11 +27,11 @@ export default () => {
           <div>
             <div style={{ fontSize: '2em' }} >
               We reply...
-        </div>
+            </div>
             <br></br>
             <div style={{ fontSize: '1em' }}>
               We will get back to you with a quotation
-        </div>
+            </div>
           </div>
       },
       position: { x: 0, y: 200 },
@@ -47,11 +47,11 @@ export default () => {
           <div>
             <div style={{ fontSize: '2em' }} >
               Agree the details...
-        </div>
+            </div>
             <br></br>
             <div style={{ fontSize: '1em' }}>
               Date, dietary requirements etc.
-        </div>
+            </div>
           </div>
       },
       position: { x: 0, y: 350 },
@@ -67,11 +67,11 @@ export default () => {
           <div>
             <div style={{ fontSize: '2em' }} >
               Done!
-        </div>
+            </div>
             <br></br>
             <div style={{ fontSize: '1em' }}>
               We will email you a confirmation, risk assesments and any other relevant documentation
-        </div>
+            </div>
           </div>
       },
       position: { x: 0, y: 500 },
@@ -86,15 +86,35 @@ export default () => {
         label:
           <div>
             <div style={{ fontSize: '2em' }} >
-              On the day
-        </div>
+              On the day<br />(Mobile Restaurant)
+            </div>
             <br></br>
             <div style={{ fontSize: '1em' }}>
               You make a venue available to us with tables and chairs. We arrive 45 mins prior to the start time and take care of the rest. Bon appétit!
-        </div>
+            </div>
           </div>
       },
       position: { x: 0, y: 700 },
+      selectable: false,
+      sourcePosition: 'left',
+      targetPosition: 'left',
+      style: { width: 300, background: '#e6f2ff' },
+    },
+    {
+      id: '6',
+      data: {
+        label:
+          <div>
+            <div style={{ fontSize: '2em' }} >
+              On the day<br />(At Our Restaurant)
+            </div>
+            <br></br>
+            <div style={{ fontSize: '1em' }}>
+              You arrive at our venue at the arranged time and we take care of the rest. Bon appétit!
+            </div>
+          </div>
+      },
+      position: { x: 0, y: 900 },
       selectable: false,
       sourcePosition: 'left',
       targetPosition: 'left',

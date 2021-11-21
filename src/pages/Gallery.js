@@ -65,6 +65,9 @@ import crepe_collection from '../img/Crepe_collection.png';
 import gallery_lydia from '../img/Les 3 graines de Lydia.jpg';
 import gallery_sunflower from '../img/Sunflower competition 1.png';
 import gallery_chronicle_2021_05_13 from '../img/21-05-13 Chronicle article.png';
+import mobile1 from '../img/mobile1.jpg';
+import mobile4 from '../img/mobile4.jpg';
+import kingsmead_breakfast from '../img/Kingsmead-Breakfast.png';
 
 const Gallery = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -110,6 +113,17 @@ const Gallery = () => {
             <h2>Gallery</h2>
           </header>
           <div className="box alt">
+            <h3 className="align-left">October 2021 : More students join in the fun at Kingsmead School, Cannock</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={kingsmead_breakfast}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">September 2021 : Launch of our mobile restaurant experience to schools - Tettenhall College, Wolverhampton</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u" src_={mobile4}></SetupImg>
+              <SetupImg class_="4u$" src_={mobile1}></SetupImg>
+            </div>
+            <br></br>
             <h3 className="align-left">May 2021 : La compétition des tournesols</h3>
             <div className="row 50% uniform">
               <SetupImg class_="4u" src_={gallery_chronicle_2021_05_13}></SetupImg>

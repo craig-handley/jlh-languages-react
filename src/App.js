@@ -7,6 +7,7 @@ import AdultCoursesSpanish from "./pages/AdultCoursesSpanish";
 import Tutoring from "./pages/Tutoring";
 import Schools from "./pages/Schools";
 import SchoolsFrench from "./pages/SchoolsFrench";
+import SchoolsFrenchMobile from "./pages/SchoolsFrenchMobile";
 import SchoolsSpanish from "./pages/SchoolsSpanish";
 import Events from "./pages/Events";
 import About from "./pages/About";
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/tutoring"><Tutoring /></Route>
         <Route exact path="/schools"><SchoolsFrench /></Route>
         <Route exact path="/schools-french"><SchoolsFrench /></Route>
+        <Route exact path="/schools-french-mobile"><SchoolsFrenchMobile /></Route>
         <Route exact path="/schools-spanish"><SchoolsSpanish /></Route>
         <Route exact path="/schools"><Schools /></Route>
         <Route exact path="/events"><Events /></Route>
