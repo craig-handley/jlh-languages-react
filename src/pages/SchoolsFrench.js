@@ -18,7 +18,7 @@ const SchoolsFrench = () => {
           </header>
           <div className="flex flex-1">
             <article>
-              <p className="align-center">Our restaurant in Cannock (WS12 2ND) caters for a minimum of 30 students and a maximum of 42.</p>
+              <p className="align-center">Our restaurant in Cannock (WS12 2DN) caters for a minimum of 30 students and a maximum of 42.</p>
               <p className="align-center">The price per head starts from £14.50 per head. Staff meals are free.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>
@@ -26,7 +26,7 @@ const SchoolsFrench = () => {
               <br></br>
               <br></br>
               <div className="image fit smaller-still">
-                <img src={menu1} alt="" className="with-border"></img>
+                <img src={Redhill_2} alt="" className="with-border"></img>
               </div>
               <div className="image fit smaller-still">
                 <img src={menu_for_restaurant_1} alt="" className="with-border"></img>
@@ -37,11 +37,11 @@ const SchoolsFrench = () => {
               <header>
                 <h3>What does the French restaurant experience involve?</h3>
               </header>
-              <p>Our team of qualified, DBS checked language teachers create the ambience of France through language, food, drink, music and props in our restaurant near to Cannock (WS12 2ND.) This allows your students to experience a taste of France without leaving the country. Students gain an insight into French culture and gain the opportunity of using the language they are learning in a practical, enjoyable and motivating way.</p>
+              <p>Our team of qualified, DBS checked language teachers create the ambience of France through language, food, drink, music and props in our restaurant near to Cannock (WS12 2DN.) This allows your students to experience a taste of France without leaving the country. Students gain an insight into French culture and gain the opportunity of using the language they are learning in a practical, enjoyable and motivating way.</p>
               <p>We cater for both primary and secondary students.</p>
-              <div className="image fit smaller-still">
+              {/* <div className="image fit smaller-still">
                 <img src={Redhill_2} alt="" className="with-border"></img>
-              </div>
+              </div> */}
               <header>
                 <h3>What are the benefits of the French experience?</h3>
               </header>

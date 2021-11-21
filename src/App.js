@@ -26,11 +26,10 @@ const App = () => {
         <Route exact path="/adult-courses-french"><AdultCoursesFrench /></Route>
         <Route exact path="/adult-courses-spanish"><AdultCoursesSpanish /></Route>
         <Route exact path="/tutoring"><Tutoring /></Route>
-        <Route exact path="/schools"><SchoolsFrench /></Route>
+        <Route exact path="/schools"><Schools /></Route>
         <Route exact path="/schools-french"><SchoolsFrench /></Route>
         <Route exact path="/schools-french-mobile"><SchoolsFrenchMobile /></Route>
         <Route exact path="/schools-spanish"><SchoolsSpanish /></Route>
-        <Route exact path="/schools"><Schools /></Route>
         <Route exact path="/events"><Events /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/testimonials"><Testimonials /></Route>
