@@ -43,13 +43,13 @@ const SchoolsFrench = () => {
                 <h3>What are the advantages of the mobile French restaurant experience?</h3>
               </header>
               <ul>
-                <li>Students gain a taste of France without the commitment to, or the financial burden of, a foreign trip. It could be used as an alternative to a foreign trip or a springboard to encourage reluctant students to participate in a foreign trip in the future.</li>
+                <li>Students gain a taste of France without the commitment to, or the financial burden of, a foreign trip. It could be used as an alternative to a foreign trip or as a springboard to encourage reluctant students to participate in a foreign trip in the future.</li>
                 <li>There are no transportation costs which makes this experience financially accessible for a larger proportion of students.</li>
                 <li>This experience enhances students’ cultural awareness. Students are encouraged to be curious about how life in France is different from life in Britain through experiencing French cuisine and the ambiance of France.</li>
                 <li>The experience brings the subject to life as students have to use their French actively for a real purpose. Once students realise that languages can be useful this may motivate them to continue with their studies with increased enthusiasm. For example, this event could be used as a motivational tool for students prior to their options in Year 8 or Year 9.</li>
                 <li>Students will be required to speak French to order a meal. The successful completion of this task provides concrete proof to the students themselves that they can actually “do” French and this can build confidence and enhance motivation.</li>
                 <li>Using French in an unscripted way develops students’ coping mechanisms which are relevant in exam situations. It can help students understand that their spoken language does not have to be perfect as long as their message is conveyed.</li>
-                <li>Visits are tailored to meet the specific objectives of each individual group e.g. to motivate reluctant learners, to stretch the most able, the increase confidence of students when speaking, to increase spontaneity etc. </li>
+                <li>Visits are tailored to meet the specific objectives of each individual group e.g. to motivate reluctant learners, to stretch the most able, to increase confidence of students when speaking, to increase spontaneity etc. </li>
                 <li>There are ample opportunities for photos which can be used on websites, newsletters and newspapers to raise the profile of the school’s MFL department.</li>
                 <li>Last but not least: it is great fun and a thoroughly enjoyable experience for students and teachers alike!</li>
               </ul>

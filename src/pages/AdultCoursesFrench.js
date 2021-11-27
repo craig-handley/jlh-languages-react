@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import Navigation from './Navigation';
 import courses from '../data/courses.json';
 import adult_courses_01 from '../img/adult_courses_01.jpg';
+import french_flyer from "../img/french_flyer.png";
+import general_blurb from "../img/general_blurb.png";
 
 const AdultCoursesFrench = () => {
   return (
@@ -12,7 +14,7 @@ const AdultCoursesFrench = () => {
           <header className="align-center">
             <h2>French Adult Courses</h2>
           </header>
-          <h3 style={{ color: "red" }}>All lessons are currently taking place on Zoom. Please email jane@jlhlanguages.org for details.</h3>
+          <h3 style={{ color: "red" }}>Please email jane@jlhlanguages.org for up-to-date details.</h3>
           <div className="flex flex-1">
             <article>
               <header>
@@ -51,6 +53,29 @@ const AdultCoursesFrench = () => {
               <p>The client needs to give at least 1 week’s notice if the client cannot attend a lesson due to a foreseeable event (e.g. hospital appointment.) Full payment will not be taken for that lesson as long as the client gives at least 1 week’s notice.</p>
               <p>However, the client will be charged £4 for the resources related to the missed lesson that are e-mailed out.</p>
               <p>Payment can be made by card, bank transfer or in cash.</p>
+            </article>
+          </div>
+        </div>
+
+        <div className="inner">
+          <div className="flex flex-2">
+            <article>
+              {/* <header>
+                <h3>French Adult Courses</h3>
+              </header> */}
+              <a href="/adult-courses-french">
+                <div className="image fit with-border">
+                  <img src={french_flyer} alt=""></img>
+                </div>
+              </a>
+              <br></br>
+            </article>
+          </div>
+          <div className="inner">
+            <article>
+              <div className="image fit smaller with-border">
+                <img src={general_blurb} alt=""></img>
+              </div>
             </article>
           </div>
         </div>

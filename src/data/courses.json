@@ -1,17 +1,5 @@
 [
     {
-        "day": "Monday",
-        "time": "6.30pm - 7.30pm",
-        "location": "Zoom",
-        "abilityLevel": "Beginners"
-    },
-    {
-        "day": "Monday",
-        "time": "7.40pm - 8.40pm",
-        "location": "Zoom",
-        "abilityLevel": "Mixed Ability / Intermediate **"
-    },
-    {
         "day": "Wednesday",
         "time": "12.00 - 1.00pm",
         "location": "Zoom",
@@ -21,13 +9,13 @@
         "day": "Wednesday",
         "time": "3.00pm - 4.00pm",
         "location": "Zoom",
-        "abilityLevel": "Advanced Conversation *"
+        "abilityLevel": "Improvers Conversation"
     },
     {
         "day": "Thursday",
-        "time": "1.30pm - 2.30pm",
-        "location": "Zoom",
-        "abilityLevel": "Mixed Ability / Intermediate **"
+        "time": "2.00pm - 3.30pm",
+        "location": "Wheatsheaf Inn, Cannock, WV10 7LU",
+        "abilityLevel": "Advanced Conversation *"
     },
     {
         "day": "Thursday",
@@ -45,6 +33,6 @@
         "day": "Friday",
         "time": "1.30pm - 2.30pm",
         "location": "Zoom",
-        "abilityLevel": "Intermediate **"
+        "abilityLevel": "Mixed Ability / Intermediate **"
     }
 ]

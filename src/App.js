@@ -22,9 +22,10 @@ const App = () => {
     <Fragment>
       <Switch>
         <Route exact path="/"><Home /></Route>
-        <Route exact path="/adult-courses"><AdultCourses /></Route>
+        <Route exact path="/adult-courses"><AdultCoursesFrench /></Route>
+        {/* <Route exact path="/adult-courses"><AdultCourses /></Route>
         <Route exact path="/adult-courses-french"><AdultCoursesFrench /></Route>
-        <Route exact path="/adult-courses-spanish"><AdultCoursesSpanish /></Route>
+        <Route exact path="/adult-courses-spanish"><AdultCoursesSpanish /></Route> */}
         <Route exact path="/tutoring"><Tutoring /></Route>
         <Route exact path="/schools"><Schools /></Route>
         <Route exact path="/schools-french"><SchoolsFrench /></Route>
