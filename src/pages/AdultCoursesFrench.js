@@ -84,7 +84,6 @@ const AdultCoursesFrench = () => {
   );
 };
 
-
 const ViewCourses = ({ courses }) => {
   return (
     <div className="table-wrapper">
