@@ -86,11 +86,11 @@ export default () => {
         label:
           <div>
             <div style={{ fontSize: '2em' }} >
-              On the day<br />(Mobile Restaurant)
+              On the day<br />(Mobile Restaurant - French only)
             </div>
             <br></br>
             <div style={{ fontSize: '1em' }}>
-              You make a venue available to us with tables and chairs. We arrive 45 mins prior to the start time and take care of the rest. Bon appétit!
+              You make a venue available to us with tables and chairs. We arrive 45 mins prior to the start time and take care of the rest.
             </div>
           </div>
       },
@@ -110,11 +110,11 @@ export default () => {
             </div>
             <br></br>
             <div style={{ fontSize: '1em' }}>
-              You arrive at our venue at the arranged time and we take care of the rest. Bon appétit!
+              You arrive at our venue at the arranged time and we take care of the rest.
             </div>
           </div>
       },
-      position: { x: 0, y: 900 },
+      position: { x: 0, y: 950 },
       selectable: false,
       sourcePosition: 'left',
       targetPosition: 'left',

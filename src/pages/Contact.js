@@ -47,7 +47,7 @@ const Contact = () => {
             </article>
             <article>
 
-              <div style={{ height: 1100 }}>
+              <div style={{ height: 1115 }}>
                 <ReactFlow
                   elements={elements}
                   nodesDraggable={false}

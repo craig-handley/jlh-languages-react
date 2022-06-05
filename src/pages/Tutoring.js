@@ -14,7 +14,7 @@ const AdultCourses = () => {
             <h2>Tutoring</h2>
           </header>
           <div className="align-center">
-            <p>Prices from £30 per hour</p>
+            <p>Prices from £35 per hour</p>
             <p>Private tuition for GCSE and A-level examinations</p>
             <p>Intensive one-to-one tuition for adults</p>
             <p>Preperation for French nationality exam (TCF)</p>

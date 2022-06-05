@@ -6,8 +6,12 @@ import AdultCoursesFrench from "./pages/AdultCoursesFrench";
 import AdultCoursesSpanish from "./pages/AdultCoursesSpanish";
 import Tutoring from "./pages/Tutoring";
 import Schools from "./pages/Schools";
-import SchoolsFrench from "./pages/SchoolsFrench";
+import SchoolsLanding from "./pages/SchoolsLanding";
+import SchoolsFrenchLanding from "./pages/SchoolsFrenchLanding";
+import SchoolsSpanishLanding from "./pages/SchoolsSpanishLanding";
 import SchoolsFrenchMobile from "./pages/SchoolsFrenchMobile";
+import SchoolsSpanishRestaurant from "./pages/SchoolsSpanishRestaurant";
+import SchoolsFrenchRestaurant from "./pages/SchoolsFrenchRestaurant";
 import SchoolsSpanish from "./pages/SchoolsSpanish";
 import Events from "./pages/Events";
 import About from "./pages/About";
@@ -27,10 +31,12 @@ const App = () => {
         <Route exact path="/adult-courses-french"><AdultCoursesFrench /></Route>
         <Route exact path="/adult-courses-spanish"><AdultCoursesSpanish /></Route> */}
         <Route exact path="/tutoring"><Tutoring /></Route>
-        <Route exact path="/schools"><Schools /></Route>
-        <Route exact path="/schools-french"><SchoolsFrench /></Route>
+        <Route exact path="/schools"><SchoolsLanding /></Route>
+        {/* <Route exact path="/schools"><Schools /></Route> */}
+        <Route exact path="/schools-french"><SchoolsFrenchLanding /></Route>
+        <Route exact path="/schools-french-restaurant"><SchoolsFrenchRestaurant /></Route>
         <Route exact path="/schools-french-mobile"><SchoolsFrenchMobile /></Route>
-        <Route exact path="/schools-spanish"><SchoolsSpanish /></Route>
+        <Route exact path="/schools-spanish"><SchoolsSpanishRestaurant /></Route>
         <Route exact path="/events"><Events /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/testimonials"><Testimonials /></Route>
