@@ -15,8 +15,8 @@ const SchoolsSpanishRestaurant = () => {
           </header>
           <div className="flex flex-1">
             <article>
-              <p className="align-center">Our restaurant in Cannock (WS12 2DN) caters for a minimum of 30 students and a maximum of 45.</p>
-              <p className="align-center">The price per head starts from £17.00 per head. Staff meals are free.</p>
+              <p className="align-center">Our restaurant in Cannock (WS12 2DN) caters for a minimum of 30 and a maximum of approx. 45 students.</p>
+              <p className="align-center">The price per head starts from £18.00 per head. Staff meals are free.</p>
               <p className="align-center">No mobile service available for Spanish restaurant experience.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>

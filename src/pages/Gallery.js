@@ -68,6 +68,13 @@ import gallery_chronicle_2021_05_13 from '../img/21-05-13 Chronicle article.png'
 import mobile1 from '../img/mobile1.jpg';
 import mobile4 from '../img/mobile4.jpg';
 import kingsmead_breakfast from '../img/Kingsmead-Breakfast.png';
+import dan from '../img/dan-tutoring.png';
+import katie from '../img/katie-tutoring.png';
+import _22_01 from '../img/22-01-Lessons.jpg';
+import _22_02 from '../img/22-02-Feedback.jpg';
+import _22_04 from '../img/22-04-Feedback.jpg';
+import _22_05 from '../img/22-05-Fully-booked.jpg';
+import _22_07 from '../img/22-07-Over-350-students-served.jpg';
 
 const Gallery = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -113,6 +120,37 @@ const Gallery = () => {
             <h2>Gallery</h2>
           </header>
           <div className="box alt">
+            <h3 className="align-left">August 2022</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u" src_={dan}></SetupImg>
+              <SetupImg class_="4u$" src_={katie}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">July 2022</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={_22_07}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">May 2022</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={_22_05}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">April 2022</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={_22_04}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">February 2022</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={_22_02}></SetupImg>
+            </div>
+            <br></br>
+            <h3 className="align-left">January 2022</h3>
+            <div className="row 50% uniform">
+              <SetupImg class_="4u$" src_={_22_01}></SetupImg>
+            </div>
+            <br></br>
             <h3 className="align-left">October 2021 : More students join in the fun at Kingsmead School, Cannock</h3>
             <div className="row 50% uniform">
               <SetupImg class_="4u$" src_={kingsmead_breakfast}></SetupImg>

@@ -25,7 +25,7 @@ const AdultCoursesFrench = () => {
           <ViewCourses courses={courses}></ViewCourses>
           <div className="flex flex-1">
             <article>
-              <p>* Advanced Conversation: For fluent or near-fluent speakers of French. Come along and chat or discuss the issues of the day.</p>
+              {/* <p>* Advanced Conversation: For fluent or near-fluent speakers of French. Come along and chat or discuss the issues of the day.</p> */}
               <p>** Intermediate: For learners with good gramatical knowledge who want to improve their fluency.</p>
               <p>First session free.</p>
             </article>
@@ -39,7 +39,7 @@ const AdultCoursesFrench = () => {
                 <h3>JLH Languages will provide</h3>
               </header>
               <p>A weekly lesson of 60 minutes.</p>
-              <p>All materials used during the lesson (material from the lesson is e-mailed out after the lesson each week so you can go over anything you want to at your leisure.)</p>
+              <p>All materials used during the lesson (material from the lesson is made available after the lesson each week so you can go over anything you want to at your leisure.)</p>
               <p>Regular tips of how to learn and links to useful websites/TV or radio programmes that may be of interest to learners of French.</p>
             </article>
 
@@ -49,9 +49,7 @@ const AdultCoursesFrench = () => {
               <header>
                 <h3>Terms and Conditions</h3>
               </header>
-              <p>Lesson are purchased in blocks: 3 lessons for £45 or 5 lessons for £65.</p>
-              <p>The client needs to give at least 1 week’s notice if the client cannot attend a lesson due to a foreseeable event (e.g. hospital appointment.) Full payment will not be taken for that lesson as long as the client gives at least 1 week’s notice.</p>
-              <p>However, the client will be charged £4 for the resources related to the missed lesson that are e-mailed out.</p>
+              <p>Lesson are purchased in blocks of 7 lessons for £91.</p>
               <p>Payment can be made by card, bank transfer or in cash.</p>
             </article>
           </div>

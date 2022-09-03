@@ -89,11 +89,12 @@ const Contact = () => {
                 <textarea name='userMessage' placeholder='Extra information or requirements' {...register('userMessage', { required: false, maxLength: 1500 })} />
                 <p className='sub-text'>{messageCharsLeft} characters remaining</p>
 
-                <label for="experienceType">Choose an experience type from the 2 options below:</label>
+                <label for="experienceType">Choose an experience type from the 3 options below:</label>
 
                 <select name="experienceType" id="experienceType">
-                  <option value="restaurant">You visit our restaurant</option>
-                  <option value="mobile">The JLH Languages' team visits your school</option>
+                  <option value="french-restaurant">You visit our French restaurant</option>
+                  <option value="spanish-restaurant">You visit our Spanish restaurant</option>
+                  <option value="mobile">The JLH Languages' team visits your school (French only)</option>
                 </select>
 
                 <br />

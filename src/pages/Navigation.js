@@ -15,7 +15,7 @@ const Navigation = ({ subpage }) => {
             {/* <Link to="/events">Events</Link> */}
             <Link to="/about">About</Link>
             <Link to="/testimonials">Testimonials</Link>
-            <Link to="/gift-vouchers">Gift Vouchers</Link>
+            {/* <Link to="/gift-vouchers">Gift Vouchers</Link> */}
             <Link to="/privacy">Privacy</Link>
             <Link to="/gallery">Gallery</Link>
             <Link to="/contact">How To Book</Link>

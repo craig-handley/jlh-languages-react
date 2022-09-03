@@ -13,12 +13,6 @@
     },
     {
         "day": "Thursday",
-        "time": "2.00pm - 3.30pm",
-        "location": "Wheatsheaf Inn, Cannock, WV10 7LU",
-        "abilityLevel": "Advanced Conversation *"
-    },
-    {
-        "day": "Thursday",
         "time": "4.30pm - 5.30pm",
         "location": "Zoom",
         "abilityLevel": "Mixed Ability / Intermediate **"
@@ -26,12 +20,6 @@
     {
         "day": "Thursday",
         "time": "7.00pm - 8.00pm",
-        "location": "Zoom",
-        "abilityLevel": "Mixed Ability / Intermediate **"
-    },
-    {
-        "day": "Friday",
-        "time": "1.30pm - 2.30pm",
         "location": "Zoom",
         "abilityLevel": "Mixed Ability / Intermediate **"
     }

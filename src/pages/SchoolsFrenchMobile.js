@@ -19,7 +19,7 @@ const SchoolsFrench = () => {
           <div className="flex flex-1">
             <article>
               <p className="align-center">Our mobile experience caters for a minimum of 30 students and a maximum of 45 (subject to the size of your venue.)</p>
-              <p className="align-center">IMPORTANT: The mobile service only operates within a radius of 30 minutes from our base in South Staffordshire (near Cannock.)</p>
+              <p className="align-center">IMPORTANT: The mobile service only operates within a radius of 30 minutes from our base in South Staffordshire (near Cannock.) A suitably large space in direct proximity to your venue is needed for our motorhome.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>
               </footer>
@@ -34,7 +34,7 @@ const SchoolsFrench = () => {
               <header>
                 <h3>What does the mobile French restaurant experience involve?</h3>
               </header>
-              <p>Our team of qualified, DBS checked language teachers come to your school to create a French restaurant in the classroom or venue allocated to us. We create the ambiance of France through language, food, drink, music and props so that your students can experience a taste of France without leaving the school premises. Students gain an insight into French culture and gain the opportunity of using the language they are learning in a practical, enjoyable and motivating way.</p>
+              <p>Our team of qualified, DBS checked language teachers come to your school to create a French restaurant in the classroom or venue allocated to us. We create the ambience of France through language, food, drink, music and props so that your students can experience a taste of France without leaving the school premises. Students gain an insight into French culture and gain the opportunity of using the language they are learning in a practical, enjoyable and motivating way.</p>
               <div className="image fit smaller-still">
                 <img src={mobile1} alt="" className="with-border"></img>
               </div>
