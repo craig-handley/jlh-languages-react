@@ -64,7 +64,6 @@ const Home = () => (
             <p>If the answer to any of these questions is yes, then why not give your students a taste of France without having to leave your school site?</p>
             <p>Having worked for several years as a Head of Department of Modern Languages, I was always looking for a way to bring the languages I taught to life. This is very challenging in a classroom but the alternative, a trip abroad, can be a very time-consuming endeavour and is, sadly, out of the question for many students.</p>
             <p>This is how the idea of the mobile French restaurant experience was born. It gives your students a taste of being in a restaurant abroad without leaving the school site. It offers a fun, effective and hassle-free alternative to a foreign trip.</p> */}
-
             <header>
               <h3>Immersive Restaurant Experiences</h3>
             </header>
