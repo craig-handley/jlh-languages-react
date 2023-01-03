@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Navigation from './Navigation';
 import about_01 from "../img/about_01.jpg";
-import fliss from "../img/fliss.jpg";
+// import fliss from "../img/fliss.jpg";
 
 const About = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import Redhill_2 from "../img/Redhill-2.jpg";
-import menu1 from "../img/1.png";
-import menu_for_restaurant_1 from "../img/menu-for-restaurant-1.png";
-import menu_for_restaurant_2 from "../img/menu-for-restaurant-2.png";
+// import menu1 from "../img/1.png";
+// import menu_for_restaurant_1 from "../img/menu-for-restaurant-1.png";
+// import menu_for_restaurant_2 from "../img/menu-for-restaurant-2.png";
 import schools_french_04 from "../img/schools_french_04.jpg";
 import CCHS_Image from "../img/CCHS-Image-6.jpg";
 import Navigation from './Navigation';

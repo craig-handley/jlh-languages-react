@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import schools_french from "../img/schools_french.png";
-import schools_spanish from "../img/schools_spanish.jpg";
+// import schools_french from "../img/schools_french.png";
+// import schools_spanish from "../img/schools_spanish.jpg";
 import flyer_both from "../img/flyer_both.png";
 import Navigation from './Navigation';
 
