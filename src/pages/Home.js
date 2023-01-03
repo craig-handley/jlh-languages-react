@@ -57,7 +57,6 @@ const Home = () => (
             </footer>
           </article>
           <article>
-
             {/* <header>
               <h3>Immersive Restaurant Experience At Your School From September 2021</h3>
             </header>
