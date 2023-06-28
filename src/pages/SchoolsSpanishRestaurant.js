@@ -15,9 +15,24 @@ const SchoolsSpanishRestaurant = () => {
           </header>
           <div className="flex flex-1">
             <article>
+              <header>
+                <h3 className="align-center">At our restaurant</h3>
+              </header>
+
               <p className="align-center">Our restaurant in Cannock (WS12 2DN) caters for a minimum of 30 and a maximum of approx. 45 students.</p>
-              <p className="align-center">The price per head starts from £18.00 per head. Staff meals are free.</p>
-              <p className="align-center">No mobile service available for Spanish restaurant experience.</p>
+              <p className="align-center">Spanish breakfast experience : from £19.50 per head.</p>
+              <p className="align-center">Spanish three course lunch experience : £33.50 per head.</p>
+              <p className="align-center">Staff meals are free.</p>
+
+              <header className="align-center">
+                <h3>At your school</h3>
+              </header>
+
+              <p className="align-center">Our mobile experience caters for a minimum of 30 students and a maximum of 45 (subject to the size of your venue.)</p>
+              <p className="align-center">Our team can deliver multiple sessions in one day for larger groups.</p>
+              <p className="align-center">IMPORTANT: The mobile service only operates within a radius of approximately 45 minutes from our base in South Staffordshire (near Cannock.) A suitably large space in direct proximity to your venue is needed for our motorhome.</p>
+
+
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>
               </footer>

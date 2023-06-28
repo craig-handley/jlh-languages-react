@@ -19,7 +19,8 @@ const SchoolsFrench = () => {
           <div className="flex flex-1">
             <article>
               <p className="align-center">Our mobile experience caters for a minimum of 30 students and a maximum of 45 (subject to the size of your venue.)</p>
-              <p className="align-center">IMPORTANT: The mobile service only operates within a radius of 30 minutes from our base in South Staffordshire (near Cannock.) A suitably large space in direct proximity to your venue is needed for our motorhome.</p>
+              <p className="align-center">Our team can deliver multiple sessions in one day for larger groups.</p>
+              <p className="align-center">IMPORTANT: The mobile service only operates within a radius of approximately 45 minutes from our base in South Staffordshire (near Cannock.) A suitably large space in direct proximity to your venue is needed for our motorhome.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>
               </footer>

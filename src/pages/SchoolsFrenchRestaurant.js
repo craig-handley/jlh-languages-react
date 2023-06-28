@@ -19,7 +19,9 @@ const SchoolsFrench = () => {
           <div className="flex flex-1">
             <article>
               <p className="align-center">Our restaurant in Cannock (WS12 2DN) caters for a minimum of 30 and a maximum of approx. 45 students.</p>
-              <p className="align-center">The price per head starts from £18.00 per head. Staff meals are free.</p>
+              <p className="align-center">French breakfast experience : from £19.50 per head.</p>
+              <p className="align-center">French three course lunch experience : £33.50 per head.</p>
+              <p className="align-center">Staff meals are free.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>
               </footer>
@@ -33,15 +35,14 @@ const SchoolsFrench = () => {
               </header>
               <p>Our team of qualified, DBS checked language teachers create the ambience of France through language, food, drink, music and props in our restaurant near to Cannock (WS12 2DN.) This allows your students to experience a taste of France without leaving the country. Students gain an insight into French culture and gain the opportunity of using the language they are learning in a practical, enjoyable and motivating way.</p>
               <p>We cater for both primary and secondary students.</p>
-              <p>Each French restaurant session lasts approx. 90 minutes but can be amended to suit your requirements.</p>
+              <p>The French breakfast session lasts 90 minutes and the French three course lunch experience lasts 2.5 hours.</p>
               <p>The price includes:</p>
               <ul>
-                <li>A French breakfast which is ordered in French (hot/cold drinks plus continental breakfast)</li>
+                <li>A French continental breakfast / three course meal which is ordered in French</li>
                 <li>Language activities to promote spontaneous speaking, increase confidence in the language (exact requirements will be discussed with teachers prior to the visit)</li>
                 <li>Certificate of participation for each student</li>
                 <li>Staff food and drink free of charge</li>
               </ul>
-              <p className="align-center"><strong>A 3-course lunch option is also available. Please get in touch for details.</strong></p>
               <header>
                 <h3>What are the benefits of the French experience?</h3>
               </header>
