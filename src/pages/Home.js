@@ -4,6 +4,7 @@ import logo from "../img/jlh-languages.png";
 import jh_tv from "../img/jlh_tv.mp4";
 import table from "../img/Table1.jpg";
 import Navigation from './Navigation';
+import availability from "../img/availability.png"
 
 const Home = () => (
   <Fragment>
@@ -16,13 +17,38 @@ const Home = () => (
         <div className="flex flex-2">
           <article>
             <header>
+              <h3>Face-to-Face French Lessons</h3>
+            </header>
+            <p>
+              New for September 2023! We are re-launching our face-to-face lessons!
+            </p>
+            <p>
+              During the week beginning 4th September 2023, we will be organising some FREE taster sessions in
+              the following towns and the surrounding area:
+            </p>
+            <ul>
+              <li>Cheslyn Hay</li>
+              <li>Cannock</li>
+              <li>Walsall</li>
+              <li>Burntwood</li>
+              <li>Brewood</li>
+              <li>Tettenhall</li>
+            </ul>
+            <p>
+              Please register your interest by Sunday 27th August 2023 (preferably by e-mail,) stating which
+              venue(s) are best for you and indicating which times you are available for lessons.
+            </p>
+            <div className="image fit">
+              <img src={availability} alt=""></img>
+            </div>
+            <header>
               <h3>French Lessons on Zoom</h3>
             </header>
             <div className="video-size">
               <video src={jh_tv} typeof="video/mp4" controls="true"></video>
             </div>
             <p></p>
-            <header>
+            {/* <header>
               <h3>Face-to-face Lessons Also Available</h3>
             </header>
             <footer>
@@ -30,9 +56,8 @@ const Home = () => (
             </footer>
             <p></p>
             <header>
-              {/* <h3>Adult Courses in French and Spanish</h3> */}
               <h3>Adult Courses in French</h3>
-            </header>
+            </header> */}
             {/* <p>JLH Languages teaches French and Spanish to adults as a type of "brain gym."</p> */}
             <p>JLH Languages teaches French to adults as a type of "brain gym."</p>
             <p>Everyone wants to live a healthy life for longer: there is increasing scientific evidence that suggests that we need to exercise our brain as well as our body. Factors that help to keep our brain in good shape are:</p>

@@ -14,7 +14,8 @@ const AdultCoursesFrench = () => {
           <header className="align-center">
             <h2>French Adult Courses</h2>
           </header>
-          <h3 style={{ color: "red" }}>Please email jane@jlhlanguages.org for up-to-date details.</h3>
+          {/* <h3 style={{ color: "red" }}>Please email jane@jlhlanguages.org for up-to-date details.</h3> */}
+          <h3 style={{ color: "red" }}>New for September 2023! We are re-launching our face-to-face group lessons. Register for our FREE taster session by 31st August. Please email jane@jlhlanguages.org</h3>
           <div className="flex flex-1">
             <article>
               <header>
