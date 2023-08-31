@@ -1,0 +1,32 @@
+[
+    {
+        "day": "Monday 11th September 2023",
+        "time": "6.00 - 7.00pm",
+        "location": "Cheslyn Hay Village Hall (WS6 7HP)",
+        "abilityLevel": "All Abilities"
+    },
+    {
+        "day": "Tuesday 12th September 2023",
+        "time": "9.30 - 10.30am",
+        "location": "Burntwood Library (WS7 2BX)",
+        "abilityLevel": "All Abilities"
+    },
+    {
+        "day": "Tuesday 12th September 2023",
+        "time": "11.30am - 12.30pm",
+        "location": "Cannock Library (WS11 1AA)",
+        "abilityLevel": "All Abilities"
+    },
+    {
+        "day": "Wednesday 13th September 2023",
+        "time": "10.00 - 11.00am",
+        "location": "Tettenhall Wood Institute (WV6 8NF)",
+        "abilityLevel": "All Abilities"
+    },
+    {
+        "day": "Tuesday 3rd October 2023",
+        "time": "2.00 - 3.00pm",
+        "location": "The Hub Cafe Bar (WS11 1GR)",
+        "abilityLevel": "Conversation Class (Advanced)"
+    }
+]

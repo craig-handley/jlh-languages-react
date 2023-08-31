@@ -23,24 +23,23 @@ const Home = () => (
               New for September 2023! We are re-launching our face-to-face lessons!
             </p>
             <p>
-              During the week beginning 4th September 2023, we will be organising some FREE taster sessions in
+              During the week beginning 11th September 2023, we will be organising some FREE taster sessions in
               the following towns and the surrounding area:
             </p>
             <ul>
               <li>Cheslyn Hay</li>
               <li>Cannock</li>
-              <li>Walsall</li>
               <li>Burntwood</li>
-              <li>Brewood</li>
               <li>Tettenhall</li>
             </ul>
             <p>
-              Please register your interest by Sunday 27th August 2023 (preferably by e-mail,) stating which
-              venue(s) are best for you and indicating which times you are available for lessons.
+              Please get in touch to book your free place or simply turn up on the day.
             </p>
-            <div className="image fit">
-              <img src={availability} alt=""></img>
-            </div>
+            <footer>
+              <a href="/adult-courses" className="button special">Taster Session Details</a>
+            </footer>
+            <br></br>
+            <br></br>
             <header>
               <h3>French Lessons on Zoom</h3>
             </header>

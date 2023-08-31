@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Navigation from './Navigation';
 import courses from '../data/courses.json';
+import free from '../data/free.json';
 import adult_courses_01 from '../img/adult_courses_01.jpg';
 import french_flyer from "../img/french_flyer.png";
 import general_blurb from "../img/general_blurb.png";
@@ -15,7 +16,15 @@ const AdultCoursesFrench = () => {
             <h2>French Adult Courses</h2>
           </header>
           {/* <h3 style={{ color: "red" }}>Please email jane@jlhlanguages.org for up-to-date details.</h3> */}
-          <h3 style={{ color: "red" }}>New for September 2023! We are re-launching our face-to-face group lessons. Register for our FREE taster session by 31st August. Please email jane@jlhlanguages.org</h3>
+          <h3 style={{ color: "red" }}>New for September 2023! We are re-launching our face-to-face group lessons. Register for our FREE taster session or simply turn up on the day. Please email jane@jlhlanguages.org</h3>
+          <div className="flex flex-1">
+            <article>
+              <header>
+                <h3>Free French Taster Sessions</h3>
+              </header>
+            </article>
+          </div>
+          <ViewCourses courses={free}></ViewCourses>
           <div className="flex flex-1">
             <article>
               <header>
@@ -50,7 +59,9 @@ const AdultCoursesFrench = () => {
               <header>
                 <h3>Terms and Conditions</h3>
               </header>
-              <p>Lesson are purchased in blocks of 7 lessons for £91.</p>
+              <p>Zoom group lessons are £13 per 60 minute lesson.</p>
+              <p>Face-to-face group lessons are £15 per 60 minute lesson.</p>
+              <p>Lessons are purchased in blocks.</p>
               <p>Payment can be made by card, bank transfer or in cash.</p>
             </article>
           </div>
