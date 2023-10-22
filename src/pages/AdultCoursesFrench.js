@@ -16,11 +16,11 @@ const AdultCoursesFrench = () => {
             <h2>French Adult Courses</h2>
           </header>
           {/* <h3 style={{ color: "red" }}>Please email jane@jlhlanguages.org for up-to-date details.</h3> */}
-          <h3 style={{ color: "red" }}>New for September 2023! We are re-launching our face-to-face group lessons. Register for our FREE taster session or simply turn up on the day. Please email jane@jlhlanguages.org</h3>
+          <h3 style={{ color: "red" }}>6 week courses starting in November. First lesson free of charge. Please email jane@jlhlanguages.org</h3>
           <div className="flex flex-1">
             <article>
               <header>
-                <h3>Free French Taster Sessions</h3>
+                <h3>Face-to-face French lessons</h3>
               </header>
             </article>
           </div>
