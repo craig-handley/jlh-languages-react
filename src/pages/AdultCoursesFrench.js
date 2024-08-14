@@ -16,7 +16,7 @@ const AdultCoursesFrench = () => {
             <h2>French Adult Courses</h2>
           </header>
           {/* <h3 style={{ color: "red" }}>Please email jane@jlhlanguages.org for up-to-date details.</h3> */}
-          <h3 style={{ color: "red" }}>Courses starting in January 2024. First lesson free of charge. Please email jane@jlhlanguages.org</h3>
+          <h3 style={{ color: "red" }}>First lesson free of charge. Please email jane@jlhlanguages.org</h3>
           <div className="flex flex-1">
             <article>
               <header>
