@@ -19,8 +19,8 @@ const SchoolsFrench = () => {
           <div className="flex flex-1">
             <article>
               <p className="align-center">Our restaurant in Cannock (WS12 2DN) caters for a minimum of 30 and a maximum of approx. 45 students.</p>
-              <p className="align-center">French breakfast experience : from £19.50 per head.</p>
-              <p className="align-center">French three course lunch experience : £33.50 per head.</p>
+              <p className="align-center">French breakfast experience : from £24.50 per head.</p>
+              <p className="align-center">French three course lunch experience : £36.50 per head.</p>
               <p className="align-center">Staff meals are free.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>

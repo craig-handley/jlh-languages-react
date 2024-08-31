@@ -18,9 +18,8 @@ const SchoolsFrench = () => {
           </header>
           <div className="flex flex-1">
             <article>
-              <p className="align-center">Our mobile experience caters for a minimum of 30 students and a maximum of 45 (subject to the size of your venue.)</p>
-              <p className="align-center">Our team can deliver multiple sessions in one day for larger groups.</p>
-              <p className="align-center">IMPORTANT: The mobile service only operates within a radius of approximately 45 minutes from our base in South Staffordshire (near Cannock.) A suitably large space in direct proximity to your venue is needed for our motorhome.</p>
+              <p className="align-center">Our mobile experience caters for a minimum of 30 students and a maximum of 45 students in each session (subject to the size of your venue.)</p>
+              <p className="align-center">Our team can deliver multiple sessions in one day and can work with up to 135 students each day.</p>
               <footer className="align-center">
                 <a href="/contact" className="button special">How To Book</a>
               </footer>
@@ -69,9 +68,9 @@ const SchoolsFrench = () => {
                 <img src={mobile3} alt="" className="with-border"></img>
               </div>
 
-              <div className="image fit smaller-still">
+              {/* <div className="image fit smaller-still">
                 <img src={mobile4} alt="" className="with-border"></img>
-              </div>
+              </div> */}
 
               <p>If you would like to receive a quote for a visit, please contact jane@jlhlanguages.org or go to our 'How To Book' page.</p>
             </article>
